@@ -5,7 +5,9 @@ paginated data from a remote API, handle loading and error states, and manage de
 
 ## 🔄 App Pagination in Action
 
-![Pagination Demo](demo.gif)
+<p>
+  <img src="demo.gif" alt="Pagination Demo" width="400"/>
+</p>
 
 ---
 
