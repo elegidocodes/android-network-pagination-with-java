@@ -3,6 +3,10 @@
 This project demonstrates how to implement **network pagination** in an Android application using the `Paging` library, `Retrofit`, `RxJava3`, and `Hilt`. It showcases how to load and display
 paginated data from a remote API, handle loading and error states, and manage dependencies cleanly.
 
+## 🔄 App Pagination in Action
+
+![Pagination Demo](demo.gif)
+
 ---
 
 ### 🚀 Features

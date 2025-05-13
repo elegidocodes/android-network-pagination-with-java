@@ -1,5 +1,7 @@
 package com.elegidocodes.networkpagination.application;
 
+import android.util.Log;
+
 import com.elegidocodes.networkpagination.BuildConfig;
 
 import java.util.concurrent.TimeUnit;
