@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Network Pagination</string>
+    <string name="retry">Retry</string>
+    <string name="movie_poster">Movie\'s poster</string>
+</resources>
