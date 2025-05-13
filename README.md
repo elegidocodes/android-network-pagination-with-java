@@ -1,6 +1,7 @@
 # Android Network Pagination Example (With Java)
 
-This project demonstrates how to implement **network pagination** in an Android application using the `Paging` library, `Retrofit`, `RxJava3`, and `Hilt`. It showcases how to load and display paginated data from a remote API, handle loading and error states, and manage dependencies cleanly.
+This project demonstrates how to implement **network pagination** in an Android application using the `Paging` library, `Retrofit`, `RxJava3`, and `Hilt`. It showcases how to load and display
+paginated data from a remote API, handle loading and error states, and manage dependencies cleanly.
 
 ---
 
@@ -21,6 +22,23 @@ This project demonstrates how to implement **network pagination** in an Android 
 * **Adapters**: `MovieAdapter` handles the paginated data display; `MovieLoadStateAdapter` manages loading/error UI.
 * **API Layer**: Uses Retrofit + RxJava3 for asynchronous network calls.
 * **MainActivity**: Collects UI state from the ViewModel and binds it to the RecyclerView.
+
+---
+
+### 🔐 API Key Configuration
+
+To run this project, you need a [The Movie Database (TMDb)](https://www.themoviedb.org/) API key.
+
+1. Open (or create) the `local.properties` file in the root directory.
+2. Add your API key:
+
+    ```properties
+   API_TOKEN=your_tmdb_api_key_here
+   ```
+
+   ⚠️ This file is automatically excluded from version control and **must not** be committed.
+
+3. The project reads this token at build time and injects it into your `BuildConfig`.
 
 ---
 
@@ -175,6 +193,7 @@ plugins {
 Don’t forget to add the Internet permission for network access:
 
 ```xml
+
 <uses-permission android:name="android.permission.INTERNET" />
 ```
 
@@ -214,7 +233,3 @@ Feel free to open issues or pull requests for bug fixes, enhancements, or new fe
 ### 📄 License
 
 Licensed under the MIT License. See [LICENSE](https://mit-license.org/) for details.
-
----
-
-Let me know if you want this formatted as a Markdown file (`README.md`) or included in your repo structure.
