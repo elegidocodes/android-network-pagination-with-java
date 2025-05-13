@@ -170,7 +170,7 @@ plugins {
 }
 
 android {
-    ...
+    // ... rest of the code
     buildFeatures {
         dataBinding = true
     }
